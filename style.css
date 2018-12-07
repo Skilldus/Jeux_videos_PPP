@@ -6,3 +6,14 @@ header{
     padding-top: 1em;
     color: white;
 }
+
+header nav{
+    margin-top: 3.5em;
+}
+header li{
+    display: inline;
+}
+
+header p{
+    margin: 0.5em;
+}
