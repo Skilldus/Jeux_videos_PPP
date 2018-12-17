@@ -1,8 +1,7 @@
 header{
     background-color: #0088CC;
-    height: 13em;
     padding-left: 1em;
-    padding-right: 1em;
+    padding-right: 0em;
     padding-top: 1em;
     margin-bottom: 2em;
     color: white;
@@ -12,34 +11,42 @@ header h1{
   font-size: 4em;
 }
 
-header div{
-  height: 8em;
+header section{
+  height: 4em;
 }
 
 header nav{
     margin-top: 0.5em;
-    padding-top: 1em;
-    color: white;
-}
-header li{
-    display: inline;
-    margin-right: 0.75em;
-    margin-left: 0.75em;
+    border-color: #454545;
+    border-top-style: groove;
 }
 
-header p{
-    margin: 0.5em;
+a div p{
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+header div{
+  text-align: center;
+  display: inline;
 }
 
 header a{
-  color: white;
-}
-
-header a:hover{
   color: lightgray;
 }
 
-li figure{
+header a:hover{
+  background-color: #0099e6;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.item:hover {
+  background-color: red;
+}
+
+div figure{
   display: inline-block;
 }
 
