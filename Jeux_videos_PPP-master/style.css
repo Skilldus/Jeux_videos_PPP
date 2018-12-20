@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'vt323regular';
+    src: url('fonts/vt323-regular-webfont.woff2') format('woff2'),
+         url('fonts/vt323-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header{
+    background-color: #0088CC;
+    padding-left: 1em;
+    padding-right: 0em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+h1{
+    font-family: "vt323regular";
+}
+
+header h1{
+    font-size: 6em;
+}
+
+
+header nav{
+    border-color: #454545;
+    border-top-style: groove;
+}
+
+a div p{
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+header div{
+    text-align: center;
+    display: inline;
+}
+
+header a{
+    color: lightgray;
+    padding-top: 0.5em;
+    height: 100%;
+}
+
+header a:hover{
+  background-color: #0099e6;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+div figure{
+  display: inline-block;
+}
+
+section{
+  margin: 2em;
+}
+
+section p{
+  margin: 2em;
+}
+
+main h2{
+  font-size: 2em;
+}
+
+main h3{
+  font-size: 1.5em;
+}
+
+footer{
+background-color: #0088CC;
+
+}
+footer p{
+  margin: 2em;
+  color: white;
+  text-align: center;
+}
+.fonce{ 
+	background-color: rgba(00,00,00,0.5);
+}
+
+.news{
+  margin-left: 8em;
+}
