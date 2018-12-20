@@ -42,7 +42,9 @@ header div{
 }
 
 header a{
-  color: lightgray;
+    color: lightgray;
+    padding-top: 0.5em;
+    height: 100%;
 }
 
 header a:hover{
