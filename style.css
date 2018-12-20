@@ -1,9 +1,10 @@
-@font‐face {    
-    font-family: 'VT323-Regular';    
-    src: url("font/VT323/");
-    src: url("/font/VT323.ttf") format("truetype");
-    font‐weight: normal;
+@font-face {
+    font-family: 'vt323regular';
+    src: url('fonts/vt323-regular-webfont.woff2') format('woff2'),
+         url('fonts/vt323-regular-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
+
 }
 
 header{
@@ -16,11 +17,11 @@ header{
 }
 
 h1{
-    font-family: "VT323-Regular";
+    font-family: "vt323regular";
 }
 
 header h1{
-  font-size: 4em;
+  font-size: 6em;
 }
 
 
