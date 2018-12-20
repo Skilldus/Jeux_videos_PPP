@@ -21,28 +21,29 @@ h1{
 }
 
 header h1{
-  font-size: 6em;
+    font-size: 6em;
 }
 
 
 header nav{
-    margin-top: 0.5em;
     border-color: #454545;
     border-top-style: groove;
 }
 
 a div p{
-  display: inline-block;
-  font-size: 0.8em;
+    display: inline-block;
+    font-size: 0.8em;
 }
 
 header div{
-  text-align: center;
-  display: inline;
+    text-align: center;
+    display: inline;
 }
 
 header a{
-  color: lightgray;
+    color: lightgray;
+    padding-top: 0.5em;
+    height: 100%;
 }
 
 header a:hover{
@@ -50,10 +51,6 @@ header a:hover{
   color: white;
   text-decoration: none;
   transition: 0.3s;
-}
-
-.item:hover {
-  background-color: red;
 }
 
 div figure{
