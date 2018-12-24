@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Utilisation de tout l'espace disponible pour les mobiles, sans zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Jeux-Vidéos | PPP</title>
+    <!-- déclaration du fichier CSS de Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="bootstrap/jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="row">
+        <section class="row align-items-center col-12" >
+            <figure class="col-lg-1">
+                <img src="img/logo.png" width=100 height=100 alt="logo_img" title="Logo"/>
+            </figure>
+            <h1 class="col-4">Jeux Vidéos</h1>
+            <h2 class="offset-lg-5 col-lg-2 align-self-end">Programmation</h2>
+        </section>
+        <nav class="row col-12 align-items-center">
+            <a href="index.html" class="col-lg-1">
+                <div>
+                    <figure>
+                        <img src="img/acceuil_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
+                    </figure>
+                    <p>Accueil</p>
+                </div>
+            </a> 
+            <a href="Supports_de_jeu.html" style="padding-right: 0.5em; padding-left: 0.5em;" class="lg-col-1">
+                <div>
+                    <figure>
+                        <img src="img/sup_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
+                    </figure>
+                    <p>Supports de jeu ▼</p>
+                </div>
+            </a>
+            <a href="#" class="col-lg-2 col-xl-1">  
+                <div>
+                    <figure>
+                        <img src="img/glossaire_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
+                    </figure>
+                    <p>Glossaire</p>
+                </div>
+            </a>
+            <a href="#" class="col-lg-2 col-xl-1">
+                <div>
+                    <figure>
+                        <img src="img/contact_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
+                    </figure>
+                    <p>Contact</p>
+                </div>
+            </a>
+        </nav>
+    </header>
+	<main>
+		<h1 class="titre">La programmation de jeux sur consoles</h1>
+		<p>La programmation de jeux sur consoles est très vague, il en existe de toutes sortes. Chucune vise un public différent :  les consoles Nintendo visent un public beaucoup plus jeune et les autres consoles sont destinées a un public un peu plus adulte. Il existe également deux types de consoles :  les consoles portables conçues pour etre facilement transporées et les consoles de salon. Récemment la sortie de la Nintendo Switch a su combler ces deux demandes avec son socle connectable à la télévision et son mode portable</p>
+        
+        <h1 class="titr">Les consoles rétros</h1>
+        <p>Dans cette partie, nous allons nous consacrer au vielles consoles qui caractérisent le début des jeux vidéos. Il est aujourd'hui possible à chacun d'entre nous de créer des jeux vidéos sur ces consoles.</p>
+        
+        <h2>La Super Nintendo (SNES)</h2>
+        <p>Pour commencer nous allons parler de la Super Nintendo, un console dite de salon qui se joue donc sur grand écran \mettre une jolie photo de la SNES/. Cette console se code avec un langage dit de bas niveau qui est le ASM autrement appelé "<em>L'Assembleur</em>". Pour utiliser ce langage, il faut déjà avoir une petite connaissance de d'autres langages de programmation tels que le C par exemple. Pour programmer sur cette console on va manipuler les bits/octets directement. Pour programmer avec ce langage, il faut tout d'abord utiliser un assembleur comme wla-dx qui permet également de rempir tout seul l'en-tête du programme que l'on nomme LoRom ou HiRom. Il se trouve dans deux adresses différentes.</p>
+        
+        <h2>L'Arduboy, La Gamebuino et La PocketCHIP</h2>
+        <p>Ce sont trois consoles qui ressemblent à des consoles rétros portables mais qui ont la particularité de se coder avec un Arduino, donc   avec le langage C et l'interface Arduino, ce qui permet assez aisément de coder des jeux avec, si l'on a une bonne maitrise du langage.</p>
+        <ul>
+            <li>L'Arduboy ressemble physiquement à la première <em>Gameboy</em> la célèbre console portable.</li>
+            <li>La Gamebuino ressemble quant à elle a la dernière <em>Gameboy Advance</em> elle permet de géréer une sortie de sons, et de jouer en multijoueurs avec un cable de liaison et le codage se fait à l'aide du proocole I2C</li>
+            <li>Pour finir, la PocketCHIP possède un clavier QWERTY et des modules Wifi et Bluetooth</li>
+        </ul>
+        <p>Ces trois consoles peuvent être crées de toutes pièces par des utilisateurs lambda.</p>
+        
+        
+        <h1 class="titr">Les consoles récentes</h1>
+        
+        <h2>Les consoles portables <em>Nintendo</em></h2>
+        <p>Vous connaissez tous la consolee <em>Nintendo DS</em> et ses variantes, aujourd'hui il est possible de programmer sur la nintendo DS avec la langage <q>BASIC</q>. Aujourd'hui, grace à un jeu crée par <em>Petit Computer</em>, il nous est possible de créer des jeux en BASIC directement avec la console. C'est en effet ce langage qui nous prmet de coder sur les consoles de la <em>Nintendo DS</em> à la <em>Nintendo 3DS</em>, c'est un langage qui ne possède aucune librairie exetrnes comme les langages Python ou C peuvent posséder. C'est un langage qui nécéssite un interprète, les anciens étant des interprètes par numéros de ligne, tandis que les modernes sont plus proches de ceux que nous connaissons avec l'arrivée de la programmation orientée objets et le stockages de variables dans la mémoire qui n'étais pas possibles avant pour le <q>BASIC</q></p>
+        
+        <h2>La <em>Nintendo Switch</em></h2>
+        <p>Sur cette dernière console sortie par Nintendo il nous est également possible de créer des applications et donc des jeux vidéos. Le langage de programmation généralement utilisé sur consoles est le C++, il est également possible de coder en C# en utilisant des moteurs de jeux qui vont se charger de le transformer en code natif.
+        <br>
+        Le C++ est un langage qui permet d'utiliser la programmation orientée objet, procédurale et générique qui sont nécéssaires (notamment la prgrammation orientée objet) pour créer des jeux vidéos. Le C++ est en réalité la version suppérieure du Langage C (d'où son nom).
+        <br>
+        Le C# (sharp) est quant à lui un dérivé du C++, qui est très proche du java : langage utilisé pour créer des applications Androïd. Le C# reprend la syntaxe du langage Java et y ajoute certaines notions (surcharge des opérateurs, indexeurs, délégués), mais il est plus utilisé pour la programmation web (pour des applications) que por la créaion de jeux vidéos sur consoles.
+        </p>
+        
+        <h2>La <em>Xbox</em></h2>
+        
+        <h1 class="titr">Les jeux hors-ligne</h1>
+        <h1 class="titr">Les jeux en ligne</h1>
+	</main>
+    <footer class="row">
+      <p class="col-12">
+        Site réalisé par les étudiants de l'IUT de Lannion : Erwan Calvez, Anthony Le Guyader, Martin Paquet et Sterenn Roux.
+      </p>
+    </footer>
+</body>
+
+</html>
