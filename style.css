@@ -99,6 +99,9 @@ footer p{
 .titre{
     font-size: 5em;
 }
-.centr{
-    margin-left:15%;
+div{
+    align-items: center;
+}
+.petit{
+    font-size: 10px;
 }
