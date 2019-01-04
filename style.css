@@ -6,9 +6,6 @@
     font-style: normal;
 
 }
-body{
-    padding:1em;
-}
 
 header{
     background-color: #0088CC;
@@ -43,13 +40,13 @@ header div{
     display: inline;
 }
 
-header a{
+nav > a{
     color: lightgray;
     padding-top: 0.5em;
     height: 100%;
 }
 
-header a:hover{
+nav > a:hover{
   background-color: #0099e6;
   color: white;
   text-decoration: none;
@@ -93,15 +90,48 @@ footer p{
   margin-left: 8em;
 }
 
-.titr{
-    font-size: 4em;
+nav > div{
+  float: left;
 }
-.titre{
-    font-size: 5em;
+
+nav > div::after{
+  content: "";
+  display: block;
+  clear: both;
 }
-div{
-    align-items: center;
+
+nav li{
+  list-style-type: none;
 }
-.petit{
-    font-size: 10px;
+
+.menu_nonbootstrap .submenu{
+  background-color: #0088CC;
+}
+
+.submenu{
+  display: none;
+}
+
+nav div:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0em;
+  z-index: 100000;
+}
+
+.submenu li{
+  border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+  padding: 15px 30px;
+  font-size: 13px;
+  color: #222538;
+  width: 250px;
+  text-decoration: none;
+}
+
+.submenu li a:hover{
+  color: white;
 }
