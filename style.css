@@ -6,6 +6,9 @@
     font-style: normal;
 
 }
+body{
+	padding:1em;
+}
 
 header{
     background-color: #0088CC;
@@ -134,4 +137,20 @@ nav div:hover .submenu{
 
 .submenu li a:hover{
   color: white;
+}
+
+.titr{
+    font-size: 4em;
+}
+.titre{
+    font-size: 5em;
+}
+div{
+    align-items: center;
+}
+.petit{
+    font-size: 10px;
+}
+.decale{
+	padding:2em;
 }
