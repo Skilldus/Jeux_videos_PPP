@@ -7,14 +7,15 @@
 
 }
 body{
-	padding:1em;
+    padding: 0;
+    margin: 0;
 }
 
 header{
     background-color: #0088CC;
-    padding-left: 1em;
+    padding-left: 0em;
     padding-right: 0em;
-    padding-top: 1em;
+    padding-top: 0em;
     margin-bottom: 2em;
     color: white;
 }
@@ -28,9 +29,10 @@ header h1{
 }
 
 
-header nav{
-    border-color: #454545;
+header nav {
+    border-color: #3c4953;
     border-top-style: groove;
+    background-color: #3c4953;
 }
 
 a div p{
@@ -96,17 +98,19 @@ footer p{
 nav > div{
   float: left;
     color: lightgray;
+    height: 100%;
 }
 
 nav > div::after{
   content: "";
   display: block;
   clear: both;
+    
 }
 
 nav > div:hover{
     color: white;
-    background-color: #0099e6;
+    background-color: #3c4953;
 }
 
 nav li{
@@ -114,7 +118,7 @@ nav li{
 }
 
 .menu_nonbootstrap .submenu{
-  background-color: #0088CC;
+  background-color: #3c4953;
 }
 
 .submenu{
@@ -139,7 +143,7 @@ nav > div p{
 
 .submenu li a{
   font-size: 13px;
-  color: #222538;
+  color: #3c4953;
   width: auto;
   text-decoration: none;
 }
