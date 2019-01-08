@@ -24,6 +24,10 @@ h1{
     font-family: "vt323regular";
 }
 
+h2{
+    font-family: "vt323regular";
+}
+
 header h1{
     font-size: 6em;
 }
@@ -52,7 +56,7 @@ nav > a{
 }
 
 nav > a:hover{
-  background-color: #0099e6;
+  background-color: #5b6671;
   color: white;
   text-decoration: none;
   transition: 0.3s;
@@ -110,7 +114,12 @@ nav > div::after{
 
 nav > div:hover{
     color: white;
-    background-color: #3c4953;
+    background-color: #5b6671;
+}
+
+nav a div{
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 nav li{
@@ -118,7 +127,7 @@ nav li{
 }
 
 .menu_nonbootstrap .submenu{
-  background-color: #3c4953;
+  background-color: white;
 }
 
 .submenu{
@@ -137,8 +146,10 @@ nav > div p{
     display: inline-block;
 }
 
-.submenu li{
-  border-bottom: 1px solid #CCC;
+.submenu {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
 }
 
 .submenu li a{
@@ -149,7 +160,8 @@ nav > div p{
 }
 
 .submenu li a:hover{
-  color: white;
+  color: #000;
+  font-weight: 700;
 }
 
 .titr{
