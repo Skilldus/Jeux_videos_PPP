@@ -95,12 +95,18 @@ footer p{
 
 nav > div{
   float: left;
+    color: lightgray;
 }
 
 nav > div::after{
   content: "";
   display: block;
   clear: both;
+}
+
+nav > div:hover{
+    color: white;
+    background-color: #0099e6;
 }
 
 nav li{
@@ -123,15 +129,18 @@ nav div:hover .submenu{
   z-index: 100000;
 }
 
+nav > div p{
+    display: inline-block;
+}
+
 .submenu li{
   border-bottom: 1px solid #CCC;
 }
 
 .submenu li a{
-  padding: 15px 30px;
   font-size: 13px;
   color: #222538;
-  width: 250px;
+  width: auto;
   text-decoration: none;
 }
 
