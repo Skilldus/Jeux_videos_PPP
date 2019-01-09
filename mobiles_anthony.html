@@ -8,7 +8,8 @@
     <title>Jeux-Vidéos | PPP</title>
     <!-- déclaration du fichier CSS de Bootstrap -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="styleMobile.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -26,7 +27,7 @@
             <h2 class="offset-xl-10 offset-lg-5 col-xl-2 col-lg-2 align-self-end">Programmation</h2>
         </section>
         <nav class="row col-12 align-items-center">
-            <a href="index.html" class="col-lg-1">
+            <a href="index.html" class="col-xl-2">
                 <div>
                     <figure>
                         <img src="img/acceuil_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -34,12 +35,10 @@
                     <p>Accueil</p>
                 </div>
             </a> 
-            <div class="col-xl-3 col-lg-1 menu_nonbootstrap">
-                <div>
-                    <figure>
-                        <img src="img/sup_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
-                    </figure>
-                    <p>Supports de jeu ▼</p>
+            <div class="col-xl-2 col-lg-1 menu_nonbootstrap">
+                <div class="row align-items-center" style="margin-top: 0.5em;">
+                    <img src="img/sup_logo.png"  class="offset-xl-2" alt="acceuil" title="accueil" width=auto height=25/>
+                     Supports de jeu ▼
                 </div>
                 <ul class="submenu col-lg-12">
                 	<li><a href="mobiles_anthony.html">Mobile</a></li>

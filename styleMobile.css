@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'vt323regular';
+    src: url('fonts/vt323-regular-webfont.woff2') format('woff2'),
+         url('fonts/vt323-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #0088CC;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 0em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+h1{
+    font-family: "vt323regular";
+}
+
+h2{
+    font-family: "vt323regular";
+}
+
+header h1, h2{
+    font-size: 6em;
+    visibility: hidden;
+}
+
+header img{
+    width: 10em;
+    height: 10em;
+}
+
+header nav {
+    border-color: #3c4953;
+    border-top-style: groove;
+    background-color: #3c4953;
+        
+}
+
+a div p{
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+header div{
+    text-align: center;
+    display: inline;
+}
+
+nav > a{
+    color: lightgray;
+    padding-top: 0.5em;
+    height: 100%;
+}
+
+nav > a:hover{
+  background-color: #5b6671;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+div figure{
+  display: inline-block;
+}
+
+section{
+  margin: 2em;
+}
+
+section p{
+  margin: 2em;
+}
+
+main h2{
+  font-size: 2em;
+}
+
+main h3{
+  font-size: 1.5em;
+}
+
+footer{
+background-color: #0088CC;
+
+}
+footer p{
+  margin: 2em;
+  color: white;
+  text-align: center;
+}
+.fonce{ 
+	background-color: rgba(00,00,00,0.5);
+}
+
+.news{
+  margin-left: 8em;
+}
+
+nav > div{
+  float: left;
+    color: lightgray;
+    height: 100%;
+}
+
+nav > div::after{
+  content: "";
+  display: block;
+  clear: both;
+    
+}
+
+nav > div:hover{
+    color: white;
+    background-color: #5b6671;
+}
+
+nav a div{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+nav li{
+  list-style-type: none;
+}
+
+.menu_nonbootstrap .submenu{
+  background-color: white;
+}
+
+.submenu{
+  display: none;
+}
+
+nav div:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0em;
+  z-index: 100000;
+}
+
+nav > div p{
+    display: inline-block;
+}
+
+.submenu {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.submenu li a{
+  font-size: 13px;
+  color: #3c4953;
+  width: auto;
+  text-decoration: none;
+}
+
+.submenu li a:hover{
+  color: #000;
+  font-weight: 700;
+}
+
+.titr{
+    font-size: 4em;
+}
+.titre{
+    font-size: 5em;
+}
+div{
+    align-items: center;
+}
+.petit{
+    font-size: 10px;
+}
+.decal{
+    padding-left: 1em;
+}
+.decale{
+	padding:1em;
+}
