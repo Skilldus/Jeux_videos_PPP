@@ -16,14 +16,14 @@
 <body>
     <header class="row">
         <section class="row align-items-center col-12" >
-            <figure class="col-lg-1">
+            <figure class="col-12 col-xl-1 col-lg-1 col-md-1 col-sm-1">
                 <a href="#"><img src="img/logo.png" width=100 height=100 alt="logo_img" title="Logo"/></a>
             </figure>
-            <h1 class="col-xl-5">Jeux Vidéos</h1>
-            <h2 class="offset-xl-10 offset-lg-5 col-xl-2 col-lg-2 align-self-end">Programmation</h2>
+            <h1 class="col-12 col-xl-5 col-lg-5 col-md-5 col-sm-5">Jeux Vidéos</h1>
+            <h2 class="offset-xl-10 offset-lg-10 offset-md-10 offset-sm-10 col-xl-2 col-lg-2 col-md-2 sol-sm-2 align-self-end">Programmation</h2>
         </section>
         <nav class="row col-12 align-items-center">
-            <a href="index.html" class="col-xl-2">
+            <a href="#" class="col-xl-2 col-lg-2 col-md-2">
                 <div>
                     <figure>
                         <img src="img/acceuil_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -31,7 +31,7 @@
                     <p>Accueil</p>
                 </div>
             </a> 
-            <div class="col-xl-2 col-lg-1 menu_nonbootstrap">
+            <div class="col-xl-2 col-lg-2 col-md-2 menu_nonbootstrap">
                 <div class="row align-items-center" style="margin-top: 0.5em;">
                     <img src="img/sup_logo.png"  class="offset-xl-2" alt="acceuil" title="accueil" width=auto height=25/>
                      Supports de jeu ▼
@@ -42,7 +42,7 @@
                 	<li><a href="consoles_sterenn.html">Console</a></li>
                 </ul>
             </div>
-            <a href="glossaire.html" class="col-lg-2 col-xl-2">  
+            <a href="glossaire.html" class="col-xl-2 col-lg-2 col-md-2">  
                 <div>
                     <figure>
                         <img src="img/glossaire_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -50,7 +50,7 @@
                     <p>Glossaire</p>
                 </div>
             </a>
-            <a href="contact.html" class="col-lg-2 col-xl-2">
+            <a href="contact.html" class="col-xl-2 col-lg-2 col-md-2">
                 <div>
                     <figure>
                         <img src="img/contact_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -60,31 +60,35 @@
             </a>
         </nav>
     </header>
-	<main>
+	<main class="decal">
 		<h1 class="titre">Consoles</h1>
         <div class="decal">
-            <h1>Assembleur</h1>
+            <h1 id="assembleur">Assembleur</h1>
             <p class="decal">L'assembleur est un langage dit de bas niveau, qui est donc directement lisible et compréhensible par la machine, i nous permet de manipuler directement des instructions machine, des adresses mémoire ect... Il représente le langage machine qui est codé en binaire (suite de 0 et de 1) sous forme lisibe et compréhensible aisément par un humain</p>
         </div>
         <div class="decal">
-            <h1>Les ROM</h1>
+            <h1 id="rom">Les ROM</h1>
             <p class="decal">ROM signifie Read Only Memory, c'est donc en français <q>la mémoire morte</q> c'est une partie de la mémoire qui n'est pas modifiable mais accessible en lecture seule. Il en existe différents types comme les PROM qui sont des ROM programmables</p>
         </div>
         <div class="decal">
-            <h1>Arduino</h1>
+            <h1 id="arduino">Arduino</h1>
             <p class="decal">Arduino est une marque qui vend différents cartes avec un microcontroler dessus (circuit intégré comportant les principaes caractéristiques d'un ordinateur telles que le processeur ou la mémoire, il est de petite taille) ces cartes sont en grande partie sous licence libre (certains composants ne le sont pas). Elles sont généralement utilisées dans le domaaine de la robotique ou de la domotique.</p>
         </div>
          <div class="decal">
-            <h1>BASIC</h1>
+            <h1 id="basic">BASIC</h1>
             <p class="decal">BASIC signifie Beginner's All-purpose Symbolic Instruction Code. C'est une famille de langages de programmation de hau niveaux (langage qui n'est pas directement compréhensible par la machine). Ce sont des langages non interactifs, qui nécéssitent une syntaxe parfaite.</p>
         </div>
         <div class="decal">
-            <h1>La programation orientée objets</h1>
-            <p class="decal">La programmation orientée objets consiste à définir, et créer une intéraction entre différents objets. Ici un objet est une entitée physique.</p>
+            <h1 id="oriente">La programation orientée</h1>
+            <p class="decal">La programmation générique consiste à la création d'algorithmes identiques qui permettent de créer des procédures. <br>La programmatyion procédurale est liée à la programmation générique et en est une conséquence, elle caractérise le fait que n'importe quelle procédure peut être appelée à n'importe quel moment du programme. <br>La programmation orientée objet est une conséquence de la programmation procédurale et donc de la programmation générique également. Elle consiste à définir, et créer une intéraction entre différents objets, ici un objet est une entitée physique auquel on associe aux objets des actions (appelées méthodes).</p>
         </div>
         <div class="decal">
-            <h1>La programation orientée objets</h1>
-            <p class="decal">La programmation orientée objets consiste à définir, et créer une intéraction entre différents objets. Ici un objet est une entitée physique.</p>
+            <h1 id="inde">Les jeux indépendants</h1>
+            <p class="decal">Il y a deux définitions différentes pour un jeu indépendant: la première explique que un jeu indépendant est créé sans l'aide financière de grandes entreprise d'édition comme Square Enix par exemple.<br>La deuxième explique qu'un jeu indépendant est dévellopé par une équipe qui conserve son indépendance de créativité.</p>
+        </div>
+        <div class="decal">
+            <h1 id="arcade">Les jeux d'arcade</h1>
+            <p class="decal">Au début, un jeu d'arcade était un jeu qui pouvait être joué sur un borne d'arcade dans certains endroits (exemple: pacman ) aujourd'hui certain de ces jeux sont commercialisés sur nos consoles actuelles, mais le type de jeux reste le même.</p>
         </div>
 	</main>
     <footer class="row">

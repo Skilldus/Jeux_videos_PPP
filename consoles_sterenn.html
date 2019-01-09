@@ -16,14 +16,14 @@
 <body>
     <header class="row">
         <section class="row align-items-center col-12" >
-            <figure class="col-lg-1">
+            <figure class="col-12 col-xl-1 col-lg-1 col-md-1 col-sm-1">
                 <a href="#"><img src="img/logo.png" width=100 height=100 alt="logo_img" title="Logo"/></a>
             </figure>
-            <h1 class="col-xl-5">Jeux Vidéos</h1>
-            <h2 class="offset-xl-10 offset-lg-5 col-xl-2 col-lg-2 align-self-end">Programmation</h2>
+            <h1 class="col-12 col-xl-5 col-lg-5 col-md-5 col-sm-5">Jeux Vidéos</h1>
+            <h2 class="offset-xl-10 offset-lg-10 offset-md-10 offset-sm-10 col-xl-2 col-lg-2 col-md-2 sol-sm-2 align-self-end">Programmation</h2>
         </section>
         <nav class="row col-12 align-items-center">
-            <a href="index.html" class="col-xl-2">
+            <a href="#" class="col-xl-2 col-lg-2 col-md-2">
                 <div>
                     <figure>
                         <img src="img/acceuil_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -31,7 +31,7 @@
                     <p>Accueil</p>
                 </div>
             </a> 
-            <div class="col-xl-2 col-lg-1 menu_nonbootstrap">
+            <div class="col-xl-2 col-lg-2 col-md-2 menu_nonbootstrap">
                 <div class="row align-items-center" style="margin-top: 0.5em;">
                     <img src="img/sup_logo.png"  class="offset-xl-2" alt="acceuil" title="accueil" width=auto height=25/>
                      Supports de jeu ▼
@@ -42,7 +42,7 @@
                 	<li><a href="consoles_sterenn.html">Console</a></li>
                 </ul>
             </div>
-            <a href="glossaire.html" class="col-lg-2 col-xl-2">  
+            <a href="glossaire.html" class="col-xl-2 col-lg-2 col-md-2">  
                 <div>
                     <figure>
                         <img src="img/glossaire_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -50,7 +50,7 @@
                     <p>Glossaire</p>
                 </div>
             </a>
-            <a href="contact.html" class="col-lg-2 col-xl-2">
+            <a href="contact.html" class="col-xl-2 col-lg-2 col-md-2">
                 <div>
                     <figure>
                         <img src="img/contact_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -60,7 +60,7 @@
             </a>
         </nav>
     </header>
-  <main>
+  <main class="decal">
     <h1 class="titre">La programmation de jeux sur consoles</h1>
     <p>La programmation de jeux sur consoles est très vague, il en existe de toutes sortes. Chucune vise un public différent :  les consoles Nintendo visent un public beaucoup plus jeune et les autres consoles sont destinées a un public un peu plus adulte. Il existe également deux types de consoles :  les consoles portables conçues pour etre facilement transporées et les consoles de salon. Récemment la sortie de la Nintendo Switch a su combler ces deux demandes avec son socle connectable à la télévision et son mode portable</p>
         
@@ -73,14 +73,14 @@
                 <img src="img/SNES.jpg" width="100%">
                 <figcaption class="petit">source : https://www.cdiscount.com/jeux-pc-video-console/consoles/nintendo-classic-mini-super-nintendo-entertainme/f-1033906-snesmini.html</figcaption>
             </figure>
-            <p class="col-7 offset-1">Pour commencer nous allons parler de la Super Nintendo, un console dite de salon qui se joue donc sur grand écran, elle refait aujourd'hui surface avec la version mini(SNES). Cette console se code avec un langage dit de bas niveau qui est le ASM autrement appelé "<em>L'Assembleur</em>". Pour utiliser ce langage, il faut déjà avoir une petite connaissance de d'autres langages de programmation tels que le C par exemple. Pour programmer sur cette console on va manipuler les bits/octets directement. Pour programmer avec ce langage, il faut tout d'abord utiliser un assembleur comme wla-dx qui permet également de rempir tout seul l'en-tête du programme que l'on nomme Rom. Il se trouve dans deux adresses différentes.</p>
+            <p class="col-7 offset-1">Pour commencer nous allons parler de la Super Nintendo, un console dite de salon qui se joue donc sur grand écran, elle refait aujourd'hui surface avec la version mini(SNES). Cette console se code avec un langage dit de bas niveau qui est le ASM autrement appelé "<a href="glossaire.html#assembleur"><em>L'Assembleur</em></a>". Pour utiliser ce langage, il faut déjà avoir une petite connaissance de d'autres langages de programmation tels que le C par exemple. Pour programmer sur cette console on va manipuler les bits/octets directement. Pour programmer avec ce langage, il faut tout d'abord utiliser un assembleur comme wla-dx qui permet également de rempir tout seul l'en-tête du programme que l'on nomme <a href="glossaire.html#rom">ROM</a>. Il se trouve dans deux adresses différentes.</p>
         </div>
         
         <h2>L'Arduboy, La Gamebuino et La PocketCHIP</h2>
         
         <div class="row align-items-center">
             <div class="col-6">
-                <p>Ce sont trois consoles qui ressemblent à des consoles rétros portables mais qui ont la particularité de se coder avec un Arduino, donc avec le langage C et l'interface Arduino, ce qui permet assez aisément de coder des jeux avec, si l'on a une bonne maitrise du langage. Ces trois consoles peuvent être crées de toutes pièces par des utilisateurs lambda.</p>
+                <p>Ce sont trois consoles qui ressemblent à des consoles rétros portables mais qui ont la particularité de se coder avec un Arduino, donc avec le langage C et l'interface <a href="glossaire.html#arduino">Arduino</a>, ce qui permet assez aisément de coder des jeux avec, si l'on a une bonne maitrise du langage. Ces trois consoles peuvent être crées de toutes pièces par des utilisateurs lambda.</p>
         
                 <ul>
                     <li>
@@ -142,14 +142,14 @@
                 <img src="img/DS.png" width="100%">
                 <figcaption class="petit">source : https://www.numerama.com/magazine/23243-programmer-en-basic-directement-sur-une-nintendo-3ds-c-est-possible.html</figcaption>
             </figure>
-            <p class="col-7 offset-1">Vous connaissez tous la consolee <em>Nintendo DS</em> et ses variantes, aujourd'hui il est possible de programmer sur la nintendo DS avec la langage <q>BASIC</q>. Aujourd'hui, grace à un jeu crée par <em>Petit Computer</em>, il nous est possible de créer des jeux en BASIC directement avec la console. C'est en effet ce langage qui nous prmet de coder sur les consoles de la <em>Nintendo DS</em> à la <em>Nintendo 3DS</em>, c'est un langage qui ne possède aucune librairie exetrnes comme les langages Python ou C peuvent posséder. C'est un langage qui nécéssite un interprète, les anciens étant des interprètes par numéros de ligne, tandis que les modernes sont plus proches de ceux que nous connaissons avec l'arrivée de la programmation orientée objets et le stockages de variables dans la mémoire qui n'étais pas possibles avant pour le <q>BASIC</q></p>
+            <p class="col-7 offset-1">Vous connaissez tous la consolee <em>Nintendo DS</em> et ses variantes, aujourd'hui il est possible de programmer sur la nintendo DS avec la langage <a href="glossaire.html#basic"><q>BASIC</q></a>. Aujourd'hui, grace à un jeu crée par <em>Petit Computer</em>, il nous est possible de créer des jeux en BASIC directement avec la console. C'est en effet ce langage qui nous prmet de coder sur les consoles de la <em>Nintendo DS</em> à la <em>Nintendo 3DS</em>, c'est un langage qui ne possède aucune librairie exetrnes comme les langages Python ou C peuvent posséder. C'est un langage qui nécéssite un interprète, les anciens étant des interprètes par numéros de ligne, tandis que les modernes sont plus proches de ceux que nous connaissons avec l'arrivée de la programmation orientée objets et le stockages de variables dans la mémoire qui n'étais pas possibles avant pour le <q>BASIC</q></p>
             
         </div>
         <h2>La <em>Nintendo Switch</em></h2>
         <div class="row">
             <p class="col-7">Sur cette dernière console sortie par Nintendo il nous est également possible de créer des applications et donc des jeux vidéos. Le langage de programmation généralement utilisé sur consoles est le C++, il est également possible de coder en C# en utilisant des moteurs de jeux qui vont se charger de le transformer en code natif.
             <br>
-            Le C++ est un langage qui permet d'utiliser la programmation orientée objet, procédurale et générique qui sont nécéssaires (notamment la prgrammation orientée objet) pour créer des jeux vidéos. Le C++ est en réalité la version suppérieure du Langage C (d'où son nom).
+            Le C++ est un langage qui permet d'utiliser <a href="glossaire.html#oriente">la programmation orientée objet, procédurale et générique</a> qui sont nécéssaires (notamment la prgrammation orientée objet) pour créer des jeux vidéos. Le C++ est en réalité la version suppérieure du Langage C (d'où son nom).
             <br>
             Le C# (sharp) est quant à lui un dérivé du C++, qui est très proche du java : langage utilisé pour créer des applications Androïd. Le C# reprend la syntaxe du langage Java et y ajoute certaines notions (surcharge des opérateurs, indexeurs, délégués), mais il est plus utilisé pour la programmation web (pour des applications) que por la créaion de jeux vidéos sur consoles.
             </p>
@@ -166,7 +166,7 @@
                 <figcaption class="petit">source : https://www.xbox.com/en-US/developers/creators-program</figcaption>
             </figure>
             <p class="col-8 offset-1">C'est aujourd'hui grace au <em>Xbox Live Creators Program</em> que nous pouvons créer des jeux vidéo et les publier sur le <em>Xbox Store</em> le but était de favoriser les petits dévellopeurs et les studios indépendants. Sur la Xbox 360 par exemple les dévelloppeurs amateurs peuvent utiliser le langage C#, mais plus les plus grands dévellopeurs c'est un langage différent que leur a fournit Microsoft.
-            <br>Il existe trois types de jeux sur Consoles: les jeux indies, les jeux d'arcarde et les jeux officiels qui son les jeux fournis par <em>Microsoft</em>.<br>Pour les jeux indies, il faut utiliser XNA qui est une bibliothèque C# fournie par <em>Microsoft</em>. Pour les jeux d'arcade, il faut une licence qui donne accès à de meilleurs outils que XNA.<br>Dans les deux cas présentés ci-dessus l'utilisaion des librairies Xbox est payante et donne l'accès de la publication des jeux sur le store.</p>
+                <br>Il existe trois types de jeux sur Consoles: <a href="glossaire.html#inde">les jeux indépendants</a>, <a href="glossaire.html#arcade">les jeux d'arcarde</a>. et les jeux officiels qui son les jeux fournis par <em>Microsoft</em>.<br>Pour les jeux indies, il faut utiliser XNA qui est une bibliothèque C# fournie par <em>Microsoft</em>. Pour les jeux d'arcade, il faut une licence qui donne accès à de meilleurs outils que XNA.<br>Dans les deux cas présentés ci-dessus l'utilisaion des librairies Xbox est payante et donne l'accès de la publication des jeux sur le store.</p>
         </div>
         
   </main>
