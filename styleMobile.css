@@ -175,12 +175,12 @@ nav > div p{
   color: #000;
   font-weight: 700;
 }
-
-.titr{
-    font-size: 4em;
-}
 .titre{
-    font-size: 5em;
+    color: #0088CC;
+    text-decoration: underline;
+}
+.titr{
+    color: #0088CC;
 }
 div{
     align-items: center;
@@ -191,6 +191,6 @@ div{
 .decal{
     padding-left: 1em;
 }
-.decale{
-	padding:1em;
+.quegrand{
+    display:none;
 }
