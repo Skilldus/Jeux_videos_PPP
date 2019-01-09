@@ -18,6 +18,7 @@ header{
     padding-top: 0em;
     margin-bottom: 2em;
     color: white;
+    font-size: 0.8em;
 }
 
 h1{
@@ -30,8 +31,12 @@ h2{
 
 header h1{
     font-size: 6em;
+    margin-left: 15px;
 }
 
+header figure{
+    margin-right: 15px;
+}
 
 header nav {
     border-color: #3c4953;
@@ -41,7 +46,6 @@ header nav {
 
 a div p{
     display: inline-block;
-    font-size: 0.8em;
 }
 
 header div{

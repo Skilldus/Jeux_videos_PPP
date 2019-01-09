@@ -17,7 +17,13 @@ header{
     padding-right: 0em;
     padding-top: 0em;
     margin-bottom: 2em;
+    height: 350px;
     color: white;
+}
+
+object{
+    visibility: hidden;
+    display: none;
 }
 
 h1{
@@ -28,21 +34,21 @@ h2{
     font-family: "vt323regular";
 }
 
-header h1, h2{
+header h2{
     font-size: 6em;
     visibility: hidden;
 }
 
 header img{
-    width: 10em;
-    height: 10em;
+    width: 250px;
+    height: 250px;
 }
 
 header nav {
     border-color: #3c4953;
     border-top-style: groove;
     background-color: #3c4953;
-        
+    visibility: hidden;
 }
 
 a div p{
