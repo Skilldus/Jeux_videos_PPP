@@ -48,6 +48,11 @@ header nav {
     background-color: #3c4953;
 }
 
+main div p{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 a div p{
     display: inline-block;
 }
