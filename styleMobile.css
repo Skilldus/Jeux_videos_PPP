@@ -36,7 +36,6 @@ h2{
 
 header h2{
     font-size: 6em;
-    visibility: hidden;
 }
 
 header img{
@@ -48,7 +47,6 @@ header nav {
     border-color: #3c4953;
     border-top-style: groove;
     background-color: #3c4953;
-    visibility: hidden;
 }
 
 a div p{
@@ -105,6 +103,9 @@ footer p{
 }
 .fonce{ 
 	background-color: rgba(00,00,00,0.5);
+}
+.pfonce{
+	color: rgba(00,00,00,0.5);
 }
 
 .news{
