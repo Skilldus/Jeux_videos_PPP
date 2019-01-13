@@ -22,6 +22,10 @@ header{
     color: white;
 }
 
+#burger{
+  z-index: 10000;
+}
+
 object{
     display: none;
 }
