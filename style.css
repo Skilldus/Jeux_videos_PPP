@@ -87,6 +87,11 @@ section p{
   margin: 2em;
 }
 
+main{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
 main h2{
   font-size: 2em;
 }
@@ -96,9 +101,10 @@ main h3{
 }
 
 footer{
-background-color: #0088CC;
-
+    background-color: #0088CC;
+    padding: 1em 0;
 }
+
 footer p{
   margin: 2em;
   color: white;
@@ -196,14 +202,4 @@ div{
 }
 .quepetit{
     display: none;
-}
-
-.contact
-{
-    padding-left:20%;
-    padding-right:10%;
-    padding-bottom: 20%;
-    border-radius: 1em;
-    border: 2px solid black;
-    
 }
