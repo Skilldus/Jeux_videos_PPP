@@ -197,3 +197,13 @@ div{
 .quepetit{
     display: none;
 }
+
+.contact
+{
+    padding-left:20%;
+    padding-right:10%;
+    padding-bottom: 20%;
+    border-radius: 1em;
+    border: 2px solid black;
+    
+}
