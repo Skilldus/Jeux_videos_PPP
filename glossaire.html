@@ -27,37 +27,38 @@
             <h1 class="col-sm-5 col-10 pfonce">Jeux Vidéos</h1>
             <h2 class="offset-10 col-2 align-self-end quegrand">Programmation</h2>
         </section>
-        <div id="burger" class="bg-dark col-12 quepetit">
-            <nav class="navbar navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-            <div class="collapse" id="navbarToggleExternalContent">
-                <a href="index.html" class="text-white row"><h4>Accueil</h4></a>
-                <h4 class="row">Supports de jeux</h4>
-                <ul class="navbar-nav" id="fdp">
-                    <li><a href="consoles_sterenn.html" class="text-white nav-item">Consoles</a>
-                    <li><a href="#" class="text-white nav-item">PC</a>
-                    <li><a href="mobiles_anthony.html" class="text-white nav-item">Mobiles</a>
-                </ul>
-                <a href="glossaire.html" class="text-white row"><h4>Glossaire</h4></a>
-                <a href="contact.html" class="text-white row"><h4>Contact</h4></a>  
-            </div>
-        </div>
+        <!--Création du menu Burger-->
+        <div class="bg-dark col-12 quepetit" style="z-index:2"> <!-- visible uniquement sur smartphone, class pour qu'il soit foncé-->
+			<nav class="navbar navbar-dark bg-dark">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> <!--bouton cliquable qui enclenche le petit menu déroulant-->
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</nav>
+			<div class="collapse" id="navbarToggleExternalContent"> <!-- Le contenu du menu burger-->
+				<a href="index.html" class="text-white row"><h4>Accueil</h4></a> <!--Lien vers la page d'acceuil-->
+				<h4 class="row">Supports de jeux</h4> <!--Catégorie supports de jeu-->
+				<ul class="navbar-nav">
+					<li><a href="consoles_sterenn.html" class="text-white nav-item">Consoles</a> <!--Lien vers la page dédiée aux consoles-->
+					<li><a href="#" class="text-white nav-item">PC</a> <!--Lien vers la page dédiée aux PC-->
+					<li><a href="mobiles_anthony.html" class="text-white nav-item">Mobiles</a> <!--Lien vers la page dédiée aux Mobiles-->
+				</ul>
+				<a href="glossaire.html" class="text-white row"><h4>Glossaire</h4></a> <!--Lien vers la page du Glossaire-->
+				<a href="contact.html" class="text-white row"><h4>Contact</h4></a>  <!--Lien vers la page Contact-->
+			</div>
+		</div>
         <nav class="row col-12 align-items-center quegrand">
             <a href="index.html" class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3">
                 <div>
                     <figure>
-                        <img src="img/acceuil_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
+                        <img src="img/acceuil_logo.png" alt="acceuil" title="accueil" width=auto height=25 />
                     </figure>
                     <p>Accueil</p>
                 </div>
-            </a> 
+            </a>
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3 menu_nonbootstrap">
                 <div class="row align-items-center" style="margin-top: 0.5em;">
-                    <img src="img/sup_logo.png"  class="offset-xl-2" alt="acceuil" title="accueil" width=auto height=25/>
-                     Supports de jeu ▼
+                    <img src="img/sup_logo.png" class="offset-xl-2" alt="acceuil" title="accueil" width=auto height=25 />
+                    Supports de jeu ▼
                 </div>
                 <ul class="submenu col-lg-12">
                     <li><a href="mobiles_anthony.html">Mobile</a></li>
@@ -65,10 +66,10 @@
                     <li><a href="consoles_sterenn.html">Console</a></li>
                 </ul>
             </div>
-            <a href="glossaire.html" class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">  
+            <a href="glossaire.html" class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
                 <div>
                     <figure>
-                        <img src="img/glossaire_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
+                        <img src="img/glossaire_logo.png" alt="acceuil" title="accueil" width=auto height=25 />
                     </figure>
                     <p>Glossaire</p>
                 </div>
@@ -76,48 +77,115 @@
             <a href="contact.html" class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
                 <div>
                     <figure>
-                        <img src="img/contact_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
+                        <img src="img/contact_logo.png" alt="acceuil" title="accueil" width=auto height=25 />
                     </figure>
                     <p>Contact</p>
                 </div>
             </a>
         </nav>
     </header>
-	<main class="decal">
-		<h1 class="titre">Consoles</h1>
+    <main class="decal">
+        <h1 class="titre">Consoles</h1>
         <div class="decal">
             <h1 id="assembleur">Assembleur</h1>
-            <p class="decal">L'assembleur est un langage dit de bas niveau, qui est donc directement lisible et compréhensible par la machine, i nous permet de manipuler directement des instructions machine, des adresses mémoire ect... Il représente le langage machine qui est codé en binaire (suite de 0 et de 1) sous forme lisibe et compréhensible aisément par un humain</p>
+            <div class="row">
+                <p class="decal col-sm-9">L'assembleur est un langage dit de bas niveau, qui est donc directement lisible et compréhensible par la machine, i nous permet de manipuler directement des instructions machine, des adresses mémoire ect... Il représente le langage machine qui est codé en binaire (suite de 0 et de 1) sous forme lisibe et compréhensible aisément par un humain</p> <!-- définition-->
+                <figure class="col-sm-2">
+                    <!-- image pour illustrer -->
+                    <center>
+                        <img src="img/assembleur.png" alt="Assembleur" title="Assembleur" width="50%">
+                        <figcaption class="petit">http://venom630.free.fr/geo/tutz/programmation/asm/intro_masm32/</figcaption>
+                    </center>
+                </figure>
+            </div>
         </div>
         <div class="decal">
             <h1 id="rom">Les ROM</h1>
-            <p class="decal">ROM signifie Read Only Memory, c'est donc en français <q>la mémoire morte</q> c'est une partie de la mémoire qui n'est pas modifiable mais accessible en lecture seule. Il en existe différents types comme les PROM qui sont des ROM programmables</p>
+            <div class="row">
+                <p class="decal col-sm-9">ROM signifie Read Only Memory, c'est donc en français <q>la mémoire morte</q> c'est une partie de la mémoire qui n'est pas modifiable mais accessible en lecture seule. Il en existe différents types comme les PROM qui sont des ROM programmables</p><!-- définition-->
+                <figure class="col-sm-2">
+                    <!-- image pour illustrer -->
+                    <center>
+                        <img src="img/ROM.jpg" alt="ROM" title="ROM" width="50%">
+                        <figcaption class="petit">https://www.indiamart.com/proddetail/computer-rom-13260291012.html</figcaption>
+                    </center>
+                </figure>
+            </div>
         </div>
         <div class="decal">
             <h1 id="arduino">Arduino</h1>
-            <p class="decal">Arduino est une marque qui vend différents cartes avec un microcontroler dessus (circuit intégré comportant les principaes caractéristiques d'un ordinateur telles que le processeur ou la mémoire, il est de petite taille) ces cartes sont en grande partie sous licence libre (certains composants ne le sont pas). Elles sont généralement utilisées dans le domaaine de la robotique ou de la domotique.</p>
+            <div class="row">
+                <p class="decal col-sm-9">Arduino est une marque qui vend différents cartes avec un microcontroler dessus (circuit intégré comportant les principaes caractéristiques d'un ordinateur telles que le processeur ou la mémoire, il est de petite taille) ces cartes sont en grande partie sous licence libre (certains composants ne le sont pas). Elles sont généralement utilisées dans le domaaine de la robotique ou de la domotique.</p>
+                <!--définition-->
+                <figure class="col-sm-2">
+                    <!--image pour illustrer-->
+                    <center>
+                        <img src="img/arduino.jpg" alt="Arduino" title="Arduino" width="100%">
+                        <figcaption class="petit">https://fr.wikipedia.org/wiki/Arduino</figcaption>
+                    </center>
+                </figure>
+            </div>
         </div>
-         <div class="decal">
+        <div class="decal">
             <h1 id="basic">BASIC</h1>
-            <p class="decal">BASIC signifie Beginner's All-purpose Symbolic Instruction Code. C'est une famille de langages de programmation de hau niveaux (langage qui n'est pas directement compréhensible par la machine). Ce sont des langages non interactifs, qui nécéssitent une syntaxe parfaite.</p>
+            <div class="row">
+                <p class="decal col-sm-9">BASIC signifie Beginner's All-purpose Symbolic Instruction Code. C'est une famille de langages de programmation de hau niveaux (langage qui n'est pas directement compréhensible par la machine). Ce sont des langages non interactifs, qui nécéssitent une syntaxe parfaite.</p>
+                <!--définition-->
+                <figure class="col-sm-2">
+                    <!--image pour illustrer-->
+                    <center>
+                        <img src="img/BASIC.png" alt="BASIC" title="BASIC" width="50%">
+                        <figcaption class="petit">https://www.ossblog.org/roundup-best-free-open-source-basic-tools/</figcaption>
+                    </center>
+                </figure>
+            </div>
         </div>
         <div class="decal">
             <h1 id="oriente">La programation orientée</h1>
-            <p class="decal">La programmation générique consiste à la création d'algorithmes identiques qui permettent de créer des procédures. <br>La programmatyion procédurale est liée à la programmation générique et en est une conséquence, elle caractérise le fait que n'importe quelle procédure peut être appelée à n'importe quel moment du programme. <br>La programmation orientée objet est une conséquence de la programmation procédurale et donc de la programmation générique également. Elle consiste à définir, et créer une intéraction entre différents objets, ici un objet est une entitée physique auquel on associe aux objets des actions (appelées méthodes).</p>
+            <div class="row">
+                <p class="decal col-sm-9">La programmation générique consiste à la création d'algorithmes identiques qui permettent de créer des procédures. <br>La programmatyion procédurale est liée à la programmation générique et en est une conséquence, elle caractérise le fait que n'importe quelle procédure peut être appelée à n'importe quel moment du programme. <br>La programmation orientée objet est une conséquence de la programmation procédurale et donc de la programmation générique également. Elle consiste à définir, et créer une intéraction entre différents objets, ici un objet est une entitée physique auquel on associe aux objets des actions (appelées méthodes).</p>
+                <!--définition-->
+                <figure class="col-sm-2">
+                    <!--image pour illustrer-->
+                    <center>
+                        <img src="img/Programmation+Orient%C3%A9e+Objet.jpg" alt="Programmation" title="Programmation" width="50%">
+                        <figcaption class="petit">https://slideplayer.fr/slide/5447079/</figcaption>
+                    </center>
+                </figure>
+            </div>
         </div>
         <div class="decal">
             <h1 id="inde">Les jeux indépendants</h1>
-            <p class="decal">Il y a deux définitions différentes pour un jeu indépendant: la première explique que un jeu indépendant est créé sans l'aide financière de grandes entreprise d'édition comme Square Enix par exemple.<br>La deuxième explique qu'un jeu indépendant est dévellopé par une équipe qui conserve son indépendance de créativité.</p>
+            <div class="row">
+                <p class="decal col-sm-9">Il y a deux définitions différentes pour un jeu indépendant: la première explique que un jeu indépendant est créé sans l'aide financière de grandes entreprise d'édition comme Square Enix par exemple.<br>La deuxième explique qu'un jeu indépendant est dévellopé par une équipe qui conserve son indépendance de créativité.</p> <!-- définition-->
+                <figure class="col-sm-2">
+                    <!--image pour illustrer-->
+                    <center>
+                        <img src="img/inde.jpg" alt="Jeux indés" title="Jeux indés" width="50%">
+                        <figcaption class="petit">http://www.jeuxvideo.com/news/427393/qu-est-ce-qu-un-jeu-inde.htm</figcaption>
+                    </center>
+                </figure>
+            </div>
         </div>
         <div class="decal">
             <h1 id="arcade">Les jeux d'arcade</h1>
-            <p class="decal">Au début, un jeu d'arcade était un jeu qui pouvait être joué sur un borne d'arcade dans certains endroits (exemple: pacman ) aujourd'hui certain de ces jeux sont commercialisés sur nos consoles actuelles, mais le type de jeux reste le même.</p>
+            <div class="row">
+                <p class="decal col-sm-9">Au début, un jeu d'arcade était un jeu qui pouvait être joué sur un borne d'arcade dans certains endroits (exemple: pacman ) aujourd'hui certain de ces jeux sont commercialisés sur nos consoles actuelles, mais le type de jeux reste le même.</p>
+                <!--définition-->
+                <figure class="col-sm-2">
+                    <!--image pour illustrer-->
+                    <center>
+                        <img src="img/arcade.jpg" alt="Arcade" title="Arcade" width="50%">
+                        <figcaption class="petit">https://www.top-game.fr/produit/borne-video-arcade-neuve-vintage-pack-jeux-stars-annees-80s/</figcaption>
+                    </center>
+                </figure>
+            </div>
         </div>
-	</main>
+    </main>
     <footer style="padding:1em 0">
-      <p class="text-center">
-        Site réalisé par les étudiants de l'IUT de Lannion : Erwan Calvez, Anthony Le Guyader, Martin Paquet et Sterenn Roux.
-      </p>
+        <p class="text-center">
+            Site réalisé par les étudiants de l'IUT de Lannion : Erwan Calvez, Anthony Le Guyader, Martin Paquet et Sterenn Roux.
+        </p>
     </footer>
 </body>
 
