@@ -35,11 +35,6 @@ h2{
 
 header h1{
     font-size: 6em;
-    margin-left: 15px;
-}
-
-header figure{
-    margin-right: 15px;
 }
 
 header nav {
@@ -80,11 +75,14 @@ div figure{
 }
 
 section{
-  margin: 2em;
+    margin: 2em;
 }
 
-section p{
-  margin: 2em;
+article p{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 main{
@@ -202,30 +200,4 @@ div{
 }
 .quepetit{
     display: none;
-}
-.contact
-{
-    padding-left:20%;
-    padding-right:10%;
-    padding-bottom: 20%;
-    border-radius: 1em;
-    border: 2px solid black;
-}
-
-.bouton_form
-{
-    background-color:white;
-    color: black;
-    border-radius: 15%;
-    border: 1px solid black;
-}
-
-label
-{
-    padding:10%;
-}
-
-.part_form
-{
-    padding:5%;
 }
