@@ -31,14 +31,15 @@ header{
     margin-top: 0;
     color: white;
     font-size: 0.8em;
+    font-family: Orbitron-Regular;
 }
 
-h1{
+h1,h2{
     font-family: "vt323regular";
 }
 
-h2{
-    font-family: "vt323regular";
+h3,h4,h5,h6{
+    font-family: Orbitron-Regular;
 }
 
 header h1{
