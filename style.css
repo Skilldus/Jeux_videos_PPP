@@ -212,3 +212,30 @@ object {
 .quepetit{
     display: none;
 }
+
+.contact
+{
+    padding-left:20%;
+    padding-right:10%;
+    padding-bottom: 20%;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+
+.bouton_form
+{
+    background-color:white;
+    color: black;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+
+label
+{
+    padding:10%;
+}
+
+.part_form
+{
+    padding:5%;
+}
