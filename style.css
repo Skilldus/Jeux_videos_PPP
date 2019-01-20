@@ -14,10 +14,20 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'exo-light';
+    src: url('fonts/exo-light-webfont.woff2') format('woff2'),
+         url('fonts/exo-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     padding: 0;
     margin: 0;
     text-align: justify;
+    font-family:exo-light;
 }
 
 header{
@@ -38,7 +48,7 @@ h1,h2{
     font-family: "vt323regular";
 }
 
-h3,h4,h5,h6{
+h3,h4,h5,h6, nav p{
     font-family: Orbitron-Regular;
 }
 
@@ -174,10 +184,6 @@ nav > div p{
     display: inline-block;
 }
 
-object {
-  align-items: center;
-}
-
 .submenu {
   border-bottom: 1px solid #000;
   border-right: 1px solid #000;
@@ -202,7 +208,9 @@ object {
 .titre{
     font-size: 5em;
 }
-
+div{
+    align-items: center;
+}
 .petit{
     font-size: 10px;
 }
@@ -211,31 +219,4 @@ object {
 }
 .quepetit{
     display: none;
-}
-
-.contact
-{
-    padding-left:20%;
-    padding-right:10%;
-    padding-bottom: 20%;
-    border-radius: 1em;
-    border: 2px solid black;
-}
-
-.bouton_form
-{
-    background-color:white;
-    color: black;
-    border-radius: 15%;
-    border: 1px solid black;
-}
-
-label
-{
-    padding:10%;
-}
-
-.part_form
-{
-    padding:5%;
 }

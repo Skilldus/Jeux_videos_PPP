@@ -4,12 +4,28 @@
          url('fonts/vt323-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+@font-face {
+    font-family: 'Orbitron-Regular';
+    src: url('fonts/Orbitron-Regular.woff2') format('woff2'),
+         url('fonts/Orbitron-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo-light';
+    src: url('fonts/exo-light-webfont.woff2') format('woff2'),
+         url('fonts/exo-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     text-align: justify;
+    font-family: exo-light;
 }
 
 header{
@@ -20,6 +36,7 @@ header{
     margin-bottom: 2em;
     height: 350px;
     color: white;
+    font-family: Orbitron-Regular;
 }
 
 #burger{
@@ -30,12 +47,12 @@ object{
     display: none;
 }
 
-h1{
+h1,h2{
     font-family: "vt323regular";
 }
 
-h2{
-    font-family: "vt323regular";
+h3,h4,h5,h6{
+    font-family: Orbitron-Regular;
 }
 
 header h2{
@@ -43,8 +60,8 @@ header h2{
 }
 
 main{
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 header img{
@@ -203,42 +220,4 @@ div{
 }
 .quegrand{
     display:none;
-}
-
-.arrive{
-  margin-right: 0;
-}
-
-.contact
-{
-    margin-left: initial;
-    padding-left:5%;
-    padding-right:10%;
-    padding-bottom: 20%;
-    border-radius: 1em;
-    border: 2px solid black;
-    min-width: 450px;
-}
-
-.bouton_form
-{
-    background-color:white;
-    color: black;
-    border-radius: 15%;
-    border: 1px solid black;
-}
-
-label
-{
-    padding:10%;
-}
-
-.part_form
-{
-    padding:5%;
-}
-.titre_form
-{
-    white-space: nowrap;
-    max-width:100%;
 }
