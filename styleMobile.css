@@ -4,15 +4,8 @@
          url('fonts/vt323-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-@font-face {
-    font-family: 'Orbitron-Regular';
-    src: url('fonts/Orbitron-Regular.woff2') format('woff2'),
-         url('fonts/Orbitron-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
+}
 body{
     padding: 0;
     margin: 0;
@@ -27,7 +20,6 @@ header{
     margin-bottom: 2em;
     height: 350px;
     color: white;
-    font-family: Orbitron-Regular;
 }
 
 #burger{
@@ -38,12 +30,12 @@ object{
     display: none;
 }
 
-h1,h2{
+h1{
     font-family: "vt323regular";
 }
 
-h3,h4,h5,h6{
-    font-family: Orbitron-Regular;
+h2{
+    font-family: "vt323regular";
 }
 
 header h2{
@@ -51,8 +43,8 @@ header h2{
 }
 
 main{
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 header img{
