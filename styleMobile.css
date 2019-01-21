@@ -221,3 +221,36 @@ div{
 .quegrand{
     display:none;
 }
+.contact
+{
+    margin-left: initial;
+    padding-left:5%;
+    padding-right:10%;
+    padding-bottom: 20%;
+    border-radius: 1em;
+    border: 2px solid black;
+    min-width: 450px;
+}
+
+.bouton_form
+{
+    background-color:white;
+    color: black;
+    border-radius: 15%;
+    border: 1px solid black;
+}
+
+label
+{
+    padding:10%;
+}
+
+.part_form
+{
+    padding:5%;
+}
+.titre_form
+{
+    white-space: nowrap;
+    max-width:100%;
+}
