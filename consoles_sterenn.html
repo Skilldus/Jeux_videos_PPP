@@ -16,38 +16,43 @@
 </head>
 
 <body>
+     <!-- Header de la page -->
     <header class="row">
-		<section class="row align-items-center col-12">
-            <figure class="col-1">
+        <!-- Première partie avec le logo + le nom du site et du sous thème -->
+        <section class="row align-items-center col-12">
+            <!-- Logo -->
+            <figure class="offset-1 col-1">
                 <a href="#"><img src="img/logo.png" class="quegrand" width=100 height=100 alt="logo_img" title="Logo" /></a>
             </figure>
             <figure class="col-1">
                 <a href="#"><img src="img/sup_logo.png" class="quepetit" width=100 height=100 alt="logo_img" title="Logo" /></a>
             </figure>
-            <h1 class="col-sm-5 col-10 pfonce">Jeux Vidéos</h1>
-            <h2 class="offset-10 col-2 align-self-end quegrand">Programmation</h2>
-		</section>
-        <!--Création du menu Burger-->
-        <div class="bg-dark col-12 quepetit"> <!-- visible uniquement sur smartphone, class pour qu'il soit foncé-->
-			<nav class="navbar navbar-dark bg-dark">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> <!--bouton cliquable qui enclenche le petit menu déroulant-->
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</nav>
-			<div class="collapse" id="navbarToggleExternalContent"> <!-- Le contenu du menu burger-->
-				<a href="index.html" class="text-white row"><h4>Accueil</h4></a> <!--Lien vers la page d'acceuil-->
-				<h4 class="row">Supports de jeux</h4> <!--Catégorie supports de jeu-->
-				<ul class="navbar-nav">
-					<li><a href="consoles_sterenn.html" class="text-white nav-item">Consoles</a> <!--Lien vers la page dédiée aux consoles-->
-					<li><a href="pcMartin.html" class="text-white nav-item">PC</a> <!--Lien vers la page dédiée aux PC-->
-					<li><a href="mobiles_anthony.html" class="text-white nav-item">Mobiles</a> <!--Lien vers la page dédiée aux Mobiles-->
-				</ul>
-				<a href="glossaire.html" class="text-white row"><h4>Glossaire</h4></a> <!--Lien vers la page du Glossaire-->
-				<a href="contact.html" class="text-white row"><h4>Contact</h4></a>  <!--Lien vers la page Contact-->
-			</div>
-		</div>
-		<nav class="row col-12 align-items-center quegrand">
-            <a href="index.html" class=" col-lg-2 col-3">
+            <!-- Titre -->
+            <h1 class="col-sm-5 col-9 pfonce">Jeux Vidéos</h1>
+            <h2 class="offset-5 col-2 align-self-end quegrand">Programmation</h2>
+        </section>
+        <!-- Menu burger pour les mobiles -->
+        <div id="burger" class="bg-dark col-12 quepetit">
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <a href="index.html" class="text-white row"><h4>Accueil</h4></a>
+                <h4 class="row">Supports de jeux</h4>
+                <ul class="navbar-nav" id="fdp">
+                    <li><a href="consoles_sterenn.html" class="text-white nav-item">Consoles</a>
+                    <li><a href="pcMartin.html" class="text-white nav-item">PC</a>
+                    <li><a href="mobiles_anthony.html" class="text-white nav-item">Mobiles</a>
+                </ul>
+                <a href="glossaire.html" class="text-white row"><h4>Glossaire</h4></a>
+                <a href="contact.html" class="text-white row"><h4>Contact</h4></a>  
+            </div>
+        </div>
+        <!-- Navigation -->
+        <nav class="row col-12 align-items-center quegrand">
+            <a href="index.html" class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3">
                 <div>
                     <figure>
                         <img src="img/acceuil_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -55,18 +60,18 @@
                     <p>Accueil</p>
                 </div>
             </a> 
-            <div class=" col-md-2 col-3 menu_nonbootstrap">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3 menu_nonbootstrap">
                 <div class="row align-items-center" style="margin-top: 0.5em;">
                     <img src="img/sup_logo.png"  class="offset-xl-2" alt="acceuil" title="accueil" width=auto height=25/>
                      Supports de jeu ▼
                 </div>
                 <ul class="submenu col-lg-12">
-                	<li><a href="mobiles_anthony.html">Mobile</a></li>
-                	<li><a href="pcMartin.html">PC</a></li>
-                	<li><a href="consoles_sterenn.html">Console</a></li>
+                    <li><a href="mobiles_anthony.html">Mobile</a></li>
+                    <li><a href="pcMartin.html">PC</a></li>
+                    <li><a href="consoles_sterenn.html">Console</a></li>
                 </ul>
             </div>
-            <a href="glossaire.html" class="col-md-2 col-3">  
+            <a href="glossaire.html" class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">  
                 <div>
                     <figure>
                         <img src="img/glossaire_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -74,7 +79,7 @@
                     <p>Glossaire</p>
                 </div>
             </a>
-            <a href="contact.html" class="col-md-2 col-3">
+            <a href="contact.html" class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
                 <div>
                     <figure>
                         <img src="img/contact_logo.png" alt="acceuil" title="accueil" width=auto height=25/>
@@ -83,7 +88,7 @@
                 </div>
             </a>
         </nav>
-	</header>
+    </header>
  <main>
         <h1 class="titre">La programmation de jeux sur consoles</h1> <!-- Classe titre pour mettre en évidence le titre de la page-->
         <p>La programmation de jeux sur console est très vague, il en existe de toutes sortes. Chacune vise un public différent : les consoles Nintendo visent un public beaucoup plus jeune et les autres consoles sont destinées a un public un peu plus adulte. Il existe également deux types de console : les consoles portables conçues pour être facilement transportées et les consoles de salon. Récemment, la sortie de la Nintendo Switch a su combler ces deux demandes avec son socle connectable à la télévision et son mode portable</p> <!-- paragraphe explicatif, présentation de la page-->

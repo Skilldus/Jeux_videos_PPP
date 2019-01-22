@@ -16,36 +16,42 @@
 </head>
 
 <body> <!-- Définition du menu -->
+     <!-- Header de la page -->
     <header class="row">
-		<section class="row align-items-center col-12">
+        <!-- Première partie avec le logo + le nom du site et du sous thème -->
+        <section class="row align-items-center col-12">
+            <!-- Logo -->
             <figure class="offset-1 col-1">
                 <a href="#"><img src="img/logo.png" class="quegrand" width=100 height=100 alt="logo_img" title="Logo" /></a>
             </figure>
             <figure class="col-1">
                 <a href="#"><img src="img/sup_logo.png" class="quepetit" width=100 height=100 alt="logo_img" title="Logo" /></a>
             </figure>
+            <!-- Titre -->
             <h1 class="col-sm-5 col-9 pfonce">Jeux Vidéos</h1>
             <h2 class="offset-5 col-2 align-self-end quegrand">Programmation</h2>
-		</section>
+        </section>
+        <!-- Menu burger pour les mobiles -->
         <div id="burger" class="bg-dark col-12 quepetit">
-			<nav class="navbar navbar-dark bg-dark">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</nav>
-			<div class="collapse" id="navbarToggleExternalContent">
-				<a href="index.html" class="text-white row"><h4>Accueil</h4></a>
-				<h4 class="row">Supports de jeux</h4>
-				<ul class="navbar-nav" id="fdp">
-					<li><a href="consoles_sterenn.html" class="text-white nav-item">Consoles</a>
-					<li><a href="pcMartin.html" class="text-white nav-item">PC</a>
-					<li><a href="mobiles_anthony.html" class="text-white nav-item">Mobiles</a>
-				</ul>
-				<a href="glossaire.html" class="text-white row"><h4>Glossaire</h4></a>
-				<a href="contact.html" class="text-white row"><h4>Contact</h4></a>  
-			</div>
-		</div>
-		<nav class="row col-12 align-items-center quegrand">
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <a href="index.html" class="text-white row"><h4>Accueil</h4></a>
+                <h4 class="row">Supports de jeux</h4>
+                <ul class="navbar-nav" id="fdp">
+                    <li><a href="consoles_sterenn.html" class="text-white nav-item">Consoles</a>
+                    <li><a href="pcMartin.html" class="text-white nav-item">PC</a>
+                    <li><a href="mobiles_anthony.html" class="text-white nav-item">Mobiles</a>
+                </ul>
+                <a href="glossaire.html" class="text-white row"><h4>Glossaire</h4></a>
+                <a href="contact.html" class="text-white row"><h4>Contact</h4></a>  
+            </div>
+        </div>
+        <!-- Navigation -->
+        <nav class="row col-12 align-items-center quegrand">
             <a href="index.html" class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3">
                 <div>
                     <figure>
@@ -60,9 +66,9 @@
                      Supports de jeu ▼
                 </div>
                 <ul class="submenu col-lg-12">
-                	<li><a href="mobiles_anthony.html">Mobile</a></li>
-                	<li><a href="pcMartin.html">PC</a></li>
-                	<li><a href="consoles_sterenn.html">Console</a></li>
+                    <li><a href="mobiles_anthony.html">Mobile</a></li>
+                    <li><a href="pcMartin.html">PC</a></li>
+                    <li><a href="consoles_sterenn.html">Console</a></li>
                 </ul>
             </div>
             <a href="glossaire.html" class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">  
@@ -82,7 +88,7 @@
                 </div>
             </a>
         </nav>
-	</header>
+    </header>
 
     <main class="decal"> <!-- Définition du contenu du site -->
 
@@ -201,8 +207,8 @@
 
     </main>
 
-    <footer class="row"> <!-- Le pied de page -->
-        <p class="col-12">
+    <footer style="padding:1em 0"> <!-- Le pied de page -->
+        <p class="text-center">
             Site réalisé par les étudiants de l'IUT de Lannion : Erwan Calvez, Anthony Le Guyader, Martin Paquet et Sterenn Roux.
         </p>
     </footer>
